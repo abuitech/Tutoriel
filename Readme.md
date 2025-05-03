@@ -85,3 +85,12 @@
 	* git branch -M main
 
 	* git push -u origin main
+
+# Quelques liens utiles
+
+* Getting started with Raspberry Pi Pico (installation et debugging) : https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf
+* Pico-series microcontrollers (documents de présentation et spécification des picos) : https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html
+* The C/C++ SDK : https://www.raspberrypi.com/documentation/microcontrollers/c_sdk.html
+* Pico-examples (github officiels des exemples) : https://github.com/raspberrypi/pico-examples
+* Pico-sdk (github officiel du sdk) : https://github.com/raspberrypi/pico-sdk
+  
