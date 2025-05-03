@@ -26,7 +26,7 @@
 
 
 
-## Création d'un projet pour Pico
+# Création d'un projet pour Pico
 
 * Aller dans "Raspberry Pi Pico Project : Quick Access" en cliquant sur l'icon avec l'image du Pico dans la toolbar verticale à gauche
 
@@ -48,7 +48,7 @@
 
 
 
-## Mettre le projet sous git et l'upload sur Github
+# Mettre le projet sous git et l'upload sur Github
 
 * Initialiser le repository :
 
