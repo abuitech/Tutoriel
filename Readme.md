@@ -86,6 +86,21 @@
 
 	* git push -u origin main
 
+__Note:__ si on n'avait créé un .gitignore ou un readme.md, la commande push échoue avec ce message d'erreur suivant
+
+>! [rejected]        main -> main (fetch first)
+>error: failed to push some refs to 'https://github.com/abuitech/Pico2Example.git'
+
+dans ce cas, il faut utiliser l'option force (-f) : git push -u origin main
+
+* Ajout d'un submodule (dans le répertoire courant) :
+
+  	* git submodule add https://github.com/abuitech/PicoFATFS.git 
+
+* Ajout d'un submodule dans un sous-répertoire spécifique :
+
+  	* git submodule add https://github.com/abuitech/PicoFATFS.git path/to/directory
+
 # Quelques liens utiles
 
 * Getting started with Raspberry Pi Pico (installation et debugging) : https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf
