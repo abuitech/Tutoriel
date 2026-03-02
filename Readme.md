@@ -100,6 +100,10 @@ dans ce cas, il faut utiliser l'option force (-f) : git push -u origin main
 * Ajout d'un submodule dans un sous-répertoire spécifique :
 
   	* git submodule add https://github.com/abuitech/PicoFATFS.git path/to/directory
+ 
+* Mettre à jour un submodule avec la dernière version :
+
+	* git submodule update --remote PicoFATFS
 
 # Quelques liens utiles
 
@@ -109,3 +113,4 @@ dans ce cas, il faut utiliser l'option force (-f) : git push -u origin main
 * Pico-examples (github officiels des exemples) : https://github.com/raspberrypi/pico-examples
 * Pico-sdk (github officiel du sdk) : https://github.com/raspberrypi/pico-sdk
   
+
