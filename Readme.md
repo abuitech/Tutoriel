@@ -105,6 +105,10 @@ dans ce cas, il faut utiliser l'option force (-f) : git push -u origin main
 
 	* git submodule update --remote PicoFATFS
 
+* Obtenir les sources des submodules avec submodules :
+
+	* git submodule update --init --recursive
+
 # Quelques liens utiles
 
 * Getting started with Raspberry Pi Pico (installation et debugging) : https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf
